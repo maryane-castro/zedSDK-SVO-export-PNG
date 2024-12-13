@@ -5,6 +5,8 @@ input_svo = "src/input_svo"
 output_folder = "src/output_frames"
 
 os.makedirs(output_folder, exist_ok=True)
+os.makedirs(input_svo, exist_ok=True)
+
 
 zed = sl.Camera()
 init_params = sl.InitParameters()
